@@ -1,0 +1,21 @@
+[project]
+name = "piwik-pro-mcp"
+version = "0.1.0"
+description = "Piwik PRO MCP server"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp-server>=0.0.15",
+    "mcp[cli]>=1.2.0",
+    "pydantic>=2.4.0",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+]
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+piwik-pro-mcp = "piwik_pro_mcp:main"
