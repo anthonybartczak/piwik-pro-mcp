@@ -65,6 +65,7 @@ To use this MCP server with Claude Desktop:
      }
    }
    ```
+4. Go to Claude Desktop settings > `Integrations`. You should be able to see `piwik-pro-mcp` MCP with a `Local` tag next to it.
 
 ## Usage in Claude
 
