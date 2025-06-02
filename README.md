@@ -20,7 +20,17 @@ A Model Context Protocol (MCP) server for interacting with Piwik PRO Analytics S
 
 ### Installation
 
-Follow the instructions from the [Set up your environment](https://modelcontextprotocol.io/quickstart/server#set-up-your-environment) section.
+1. Install `uv`:
+
+   ```bash
+   # Windows
+   powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+   # MacOS/Linux
+   curl -LsSf https://astral.sh/uv/install.sh | sh
+   ```
+
+2. Clone the repository
 
 ### Configuration
 
@@ -40,7 +50,7 @@ To use this MCP server with Claude Desktop:
    # Windows
    code $env:AppData\Claude\claude_desktop_config.json
 
-   #MacOS/Linux
+   # MacOS/Linux
    code ~/Library/Application\ Support/Claude/claude_desktop_config.json
    ```
 
